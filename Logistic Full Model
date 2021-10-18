@@ -1,0 +1,9 @@
+*Multiple logistic Model(full model);
+
+ods html;
+proc logistic data=work.cleandata descending ;  
+MODEL TEnYearCHD = male 	age 	education 	currentSmoker 	cigsPerDay 	
+BPMeds 	prevalentStroke 	prevalentHyp 	diabetes 	totChol 	
+sysBP 	diaBP 	BMI 	heartRate 	glucose / Risklimits;                       
+run;
+ODS html close;
