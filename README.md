@@ -1,2 +1,6 @@
-# SAS-project2021
-This repository will store my project which is based on determining factors that are good predictors of  10-year risk of Coronary Heart Disease using logistic regression
+# Good Predictors for a risk of coronary disease in 10 years
+
+
+
+## Abstract
+Approximately 12 million deaths worldwide are caused by heart diseases annually and half of the deaths are due to cardiovascular diseases, according to the World Health Organization. Our main goal for this study is to predict which factors are good predictors of patients that have 10-year risk of future coronary heart disease. To reduce the complications from cardiovascular diseases, early diagnosis can help patients make informed lifestyle changes. The data that I will be using for the prediction in my project is from an online source named Kaggle, the data was gathered for a cardiovascular study that is being conducted on residents based in the town of Framingham, Massachusetts. To come up with my conclusion to this study I approached it by using Statistics concepts which are procedures for determining the distribution of my variables and correlation, building a regression model (Logistic Model), and Selection techniques to find an optimal model. I used the backward technique when I was optimising my model because the forward has suppressor effects. Throughout my research, I used the logistic regression model as it is applicable for this study for coming up with a solution to this study of determining factors that are good predictors of whether a patient has a 10-year risk or not. After computing
